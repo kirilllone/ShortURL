@@ -43,11 +43,20 @@
 
 // curl -v -X POST -H "Content-Type: text/plain" -d "https://yandex.ru" 'localhost:8085/post' (/post)
 
+
+![Image alt](https://github.com/kirilllone/ShortURL/blob/main/posttrue.png)
+
 // curl -v -X POST -H "Content-Type: text/plain" -d "helloworld" 'localhost:8085/post' (неправильный ввод ссылки)
+
+![Image alt](https://github.com/kirilllone/ShortURL/blob/main/postfalse.png)
 
 // curl -v -H "Content-Type: text/plain" -d "XVlBz" 'localhost:8085' (поиск по короткой)
 
+![Image alt](https://github.com/kirilllone/ShortURL/blob/main/findtrue.png)
+
 // curl -v -H "Content-Type: text/plain" -d "wwwww" 'localhost:8085' (несуществующая короткая)
+
+![Image alt](https://github.com/kirilllone/ShortURL/blob/main/findfalse.png)
 
 
 
